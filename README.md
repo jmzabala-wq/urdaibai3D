@@ -1,33 +1,20 @@
-# 🌿 Urdaibai 3D — Mundu Irekia
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-**Urdaibai 3D** nabigatzailean exekutatzen den 3D mundu irekiko gidatze- eta esplorazio-joko bat da. Urdaibaiko Biosfera Erreserban girotua, fisika errealista, eguraldi-sistema dinamikoa, soinu-motorra eta irratia uztartzen ditu.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## ✨ Ezaugarri Nagusiak
+View your app in AI Studio: https://ai.studio/apps/c490da89-c932-4c20-a49f-dd68d493c854
 
-* **3D Mundu Irekia:** Urdaibaiko ingurunean oinarritutako mapa interaktiboa (OpenStreetMap datuekin aberastua) eta minimapa.
-* **Ibilgailuen Fisika Errealista:** Eskuz garatutako fisika-motorra ibilgailuen kontrol zehatzerako.
-* **Eguraldi Sistema Dinamikoa:** Eguzkia, euria eta ingurune-aldaketak denbora errealean.
-* **Audioa eta Irratia:** Soinu-efektu dinamikoak (`soundEngine`) eta joko barruko irrati-sistema (`radioEngine`).
-* **Gailu Guztietarako Egokitua:** Ordenagailuko teklatuarekin zein gailu mugikorretako ukipen-kontrolekin jokatzeko prest.
+## Run Locally
 
----
+**Prerequisites:**  Node.js
 
-## 🛠️ Erabilitako Teknologiak
 
-* **Frontend:** React + TypeScript
-* **3D Motorra:** Three.js
-* **Eraikuntza-tresna (Bundler):** Vite
-* **Pakete-kudeatzailea:** Bun / npm
-
----
-
-## 🚀 Instalazioa eta Exekuzioa (Lokalean)
-
-Proiektua zure ordenagailuan probatzeko edo garatzeko, jarraitu urrats hauek:
-
-1. **Klonatu biltegia:**
-   ```bash
-   git clone [https://github.com/ZURE-ERABILTZAILEA/urdaibai-3d.git](https://github.com/ZURE-ERABILTZAILEA/urdaibai-3d.git)
-   cd urdaibai-3d
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

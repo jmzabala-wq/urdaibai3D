@@ -1,0 +1,6 @@
+{
+  "name": "Urdaibai 3D — Mundu Irekia",
+  "description": "Urdaibaiko Biosfera Erreserban girotutako 3D mundu irekiko joko eta esplorazio simulagailua, lur, itsaso eta aireko ibilgailuekin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
